@@ -43,7 +43,7 @@ All apps except:
 # Categories
 
 All enabled except
-- Video Streaming
+- Video Streaming (Large portions of this category can be controlled by the other apps such as netflix, youtube, piracy)
 
 
 # Deny List
