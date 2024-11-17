@@ -1,0 +1,263 @@
+{
+  "denylist": [],
+  "settings": {
+    "logs": {
+      "enabled": true,
+      "drop": {
+        "ip": false,
+        "domain": false
+      },
+      "retention": 7776000,
+      "location": "eu"
+    },
+    "blockPage": {
+      "enabled": false
+    },
+    "performance": {
+      "ecs": true,
+      "cacheBoost": false,
+      "cnameFlattening": false
+    },
+    "web3": false
+  },
+  "rewrites": [],
+  "privacy": {
+    "disguisedTrackers": true,
+    "allowAffiliate": false,
+    "blocklists": [
+      {
+        "id": "nextdns-recommended"
+      },
+      {
+        "id": "oisd"
+      }
+    ],
+    "natives": []
+  },
+  "parentalcontrol": {
+    "safeSearch": true,
+    "youtubeRestrictedMode": false,
+    "blockBypass": true,
+    "services": [
+      {
+        "id": "tiktok",
+        "active": true,
+        "recreation": false
+      },
+      {
+        "id": "snapchat",
+        "active": true,
+        "recreation": false
+      },
+      {
+        "id": "tinder",
+        "active": true,
+        "recreation": false
+      },
+      {
+        "id": "vk",
+        "active": true,
+        "recreation": false
+      },
+      {
+        "id": "9gag",
+        "active": true,
+        "recreation": false
+      },
+      {
+        "id": "tumblr",
+        "active": true,
+        "recreation": false
+      },
+      {
+        "id": "fortnite",
+        "active": true,
+        "recreation": false
+      },
+      {
+        "id": "roblox",
+        "active": true,
+        "recreation": false
+      },
+      {
+        "id": "telegram",
+        "active": true,
+        "recreation": false
+      },
+      {
+        "id": "dailymotion",
+        "active": true,
+        "recreation": false
+      },
+      {
+        "id": "bereal",
+        "active": true,
+        "recreation": false
+      },
+      {
+        "id": "skype",
+        "active": true,
+        "recreation": false
+      }
+    ],
+    "categories": [
+      {
+        "id": "gambling",
+        "recreation": false,
+        "active": true
+      },
+      {
+        "id": "porn",
+        "recreation": false,
+        "active": true
+      },
+      {
+        "id": "dating",
+        "recreation": false,
+        "active": true
+      }
+    ],
+    "recreation": {
+      "times": {},
+      "timezone": null
+    }
+  },
+  "allowlist": [
+  ],
+  "security": {
+    "threatIntelligenceFeeds": true,
+    "aiThreatDetection": true,
+    "googleSafeBrowsing": true,
+    "cryptojacking": true,
+    "dnsRebinding": true,
+    "idnHomographs": true,
+    "typosquatting": true,
+    "dga": true,
+    "nrd": true,
+    "ddns": true,
+    "parking": true,
+    "csam": true,
+    "tlds": [
+      {
+        "id": "cn"
+      },
+      {
+        "id": "abc"
+      },
+      {
+        "id": "adult"
+      },
+      {
+        "id": "ga"
+      },
+      {
+        "id": "gay"
+      },
+      {
+        "id": "fit"
+      },
+      {
+        "id": "alfaromeo"
+      },
+      {
+        "id": "analytics"
+      },
+      {
+        "id": "baby"
+      },
+      {
+        "id": "bananarepublic"
+      },
+      {
+        "id": "banamex"
+      },
+      {
+        "id": "bar"
+      },
+      {
+        "id": "bayern"
+      },
+      {
+        "id": "bbc"
+      },
+      {
+        "id": "beats"
+      },
+      {
+        "id": "autos"
+      },
+      {
+        "id": "best"
+      },
+      {
+        "id": "bid"
+      },
+      {
+        "id": "bio"
+      },
+      {
+        "id": "boats"
+      },
+      {
+        "id": "boston"
+      },
+      {
+        "id": "boutique"
+      },
+      {
+        "id": "charity"
+      },
+      {
+        "id": "christmas"
+      },
+      {
+        "id": "dance"
+      },
+      {
+        "id": "fishing"
+      },
+      {
+        "id": "hair"
+      },
+      {
+        "id": "haus"
+      },
+      {
+        "id": "loan"
+      },
+      {
+        "id": "loans"
+      },
+      {
+        "id": "men"
+      },
+      {
+        "id": "mom"
+      },
+      {
+        "id": "name"
+      },
+      {
+        "id": "review"
+      },
+      {
+        "id": "rip"
+      },
+      {
+        "id": "skin"
+      },
+      {
+        "id": "support"
+      },
+      {
+        "id": "tattoo"
+      },
+      {
+        "id": "tokyo"
+      },
+      {
+        "id": "voto"
+      }
+    ]
+  }
+}
