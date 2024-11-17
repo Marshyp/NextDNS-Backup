@@ -40,7 +40,7 @@ All apps except:
 - reddit
 
 
-# Catergoies
+# Categories
 
 All enabled except
 - Video Streaming
