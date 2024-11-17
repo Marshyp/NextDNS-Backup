@@ -3,6 +3,8 @@
 
 This by default will include EVERY control on NextDNS as of 17/11/24 with some exceptions:  
 
+❗Known Issue when importing configuration profiles involving parental controls  
+
 # Block TLDs
 
 All TLDs have been blocked except:
@@ -53,11 +55,12 @@ All enabled except
 This is empty by default but I have added here
 - some common vpns used to bypass controls such as nordvpn, expressvpn, mulladvpn
 - Cryptocurrency domains
-- remote desktop domains, to prevent scammers from initiating control over user's device
+- remote desktop domains (RMMs), to prevent scammers from initiating control over user's device
 - 3rd party browsers as this is potential bypass  
-> These have been taken from: https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs
+> These have been taken from: https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs  #
 
-Strong recommendation to use DNS over TLS (or DNS over HTTPs if this is DNS over TLS is not an option) with logging to create allows by exception
+
+Strong recommendation to use DNS over TLS (or DNS over HTTPs if DNS over TLS is not an option) with logging to create allows by exception
 
 
 > 🗒️ Also Disclaimer that is a very long configuration file and can take some time to load⏲️  
