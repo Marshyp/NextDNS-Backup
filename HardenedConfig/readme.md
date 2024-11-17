@@ -62,9 +62,9 @@ This is empty by default but I have added here
 
 Strong recommendation to use DNS over TLS (or DNS over HTTPs if DNS over TLS is not an option) with logging to create allows by exception
 
-# Manual Steps
+# Clean Up - Manual  
 
-## Remove the API key if you are not using it:  
+## Remove the API key if you are not using it after the Import stage:  
 > This can be done from Account and scrolling down to the bottom  
 ![image](https://github.com/user-attachments/assets/57325e82-4dd1-49ee-a889-ace8fbe3540a)
 
