@@ -3,6 +3,10 @@
 
 This by default will include EVERY control on NextDNS as of 17/11/24 with some exceptions:  
 
+❗Known Issue when importing configuration profiles involving parental controls and deny lists using browser extension, we are looking to resolve this with a script.  
+
+> 🗒️ Also Disclaimer that is a very long configuration file and can take some time to load⏲️
+
 # Block TLDs
 
 All TLDs have been blocked except:
@@ -53,11 +57,29 @@ All enabled except
 This is empty by default but I have added here
 - some common vpns used to bypass controls such as nordvpn, expressvpn, mulladvpn
 - Cryptocurrency domains
-- remote desktop domains, to prevent scammers from initiating control over user's device
+- remote desktop domains (RMMs), to prevent scammers from initiating control over user's device
 - 3rd party browsers as this is potential bypass  
-> These have been taken from: https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs
-
-Strong recommendation to use DNS over TLS (or DNS over HTTPs if this is DNS over TLS is not an option) with logging to create allows by exception
+> These have been taken from: https://github.com/jkerai1/SoftwareCertificates/tree/main/Bulk-IOC-CSVs  #
 
 
-> 🗒️ Also Disclaimer that is a very long configuration file and can take some time to load⏲️  
+Strong recommendation to use DNS over TLS (or DNS over HTTPs if DNS over TLS is not an option) with logging to create allows by exception
+
+# Clean Up - Manual  
+
+## Remove the API key if you are not using it after the Import stage:  
+> This can be done from Account and scrolling down to the bottom  
+![image](https://github.com/user-attachments/assets/57325e82-4dd1-49ee-a889-ace8fbe3540a)
+
+## Change Log Storage Location and Retention  
+> This can be done from Settings  
+
+![image](https://github.com/user-attachments/assets/d1fca960-974c-44e9-b748-5b72c3f3c47f)  
+
+
+## Optional  
+
+Download NextDNS Root CA to prevent error pages not showing up correctly  
+
+![image](https://github.com/user-attachments/assets/0fa26369-a39c-443d-9adb-1e6cdb4fe71e)
+
+
